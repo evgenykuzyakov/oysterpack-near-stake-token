@@ -214,7 +214,7 @@ pub struct Contract {
     next_stake_batch: Option<StakeBatch>,
 
     redeem_stake_batch: Option<RedeemStakeBatch>,
-    /// used to store batch requests while the contract is locked    
+    /// used to store batch requests while the contract is locked
     next_redeem_stake_batch: Option<RedeemStakeBatch>,
 
     /// receipts serve 2 purposes:
